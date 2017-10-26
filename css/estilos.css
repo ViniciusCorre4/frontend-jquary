@@ -1,0 +1,11 @@
+*{
+	margin:0px;
+	padding:0px;  
+
+}
+header{
+	padding: 5% 0px;
+	background-image: url("https://i.imgur.com/TpEHQl3.jpg");
+	background-size: 100%;
+	background-position: 0px -200px; 
+}
