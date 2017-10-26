@@ -2,9 +2,44 @@
 <html lang="pt-br">
 <head>
 	<meta charset="UTF-8">
-	<title>Document</title>
+	<title>Uso de JQuery</title>
+	
+<script type="text/javascript" src="../js/jquery.js"></script>	
+
+<script type="text/javascript">
+/* Para usar a blibloteca de JQuery e necessario usar um caracter especial para fazer a chamada($) ou JQuery */
+$(document).ready(function(){
+	$('#principal').append('<p>Texto Novo</p>');
+	$('#primeiro').click(function(){
+		$('div').append('<h2> Estou aqui!</h2>');
+	})
+});
+</script>
+
 </head>
 <body>
 	
+<header>
+	<h1>Página com JQuery</h1>
+</header>
+
+<main>
+	
+	<section id="principal">
+		<div>
+		<button id="primeiro">primeiro</button><br>
+			<div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et, ex! Fugiat sapiente aspernatur in quos mollitia adipisci id eius sed provident, voluptatum, ullam ducimus repellendus error laudantium nesciunt culpa suscipit.</div>
+			<div>Similique beatae numquam distinctio iure, assumenda omnis, deserunt quaerat natus quidem velit consequuntur, at obcaecati recusandae cum id sapiente magnam iusto vero minus mollitia nobis. Animi quaerat vero vitae dicta.</div>
+			<div>Itaque sint alias consequuntur accusantium consequatur obcaecati nesciunt, deleniti optio architecto nihil ad, eaque odio temporibus id laborum iusto quas. Ipsa eius sapiente laboriosam ipsam quisquam itaque ad iusto voluptatum?</div>
+		</div>
+		<div>
+			<div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut aut ipsum commodi id beatae tempore distinctio doloribus delectus earum eum quasi sit, quibusdam enim harum hic autem amet quo ex.</div>
+			<div>Provident, inventore numquam explicabo fugit libero ex eveniet voluptates aliquid non, est quo voluptatum vero maiores, alias magnam dolorem, aperiam nobis! Alias veniam quam, reiciendis illo veritatis quasi quas! Voluptate.</div>
+			<div>Eveniet explicabo ratione sed saepe non tenetur, quo rem similique laudantium odit ipsa corporis dolore, quos. Architecto, facilis. Repellendus nisi quas inventore quam aliquam dolorem, pariatur officia, adipisci maiores cum!</div>
+		</div>
+	</section>
+
+</main>
+
 </body>
 </html>
